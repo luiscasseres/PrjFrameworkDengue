@@ -52,10 +52,70 @@ grafico.relatorio('simplificado', 'Boletim Diario')
 
 ## Ajuda
 
-Any advise for common problems or issues.
+
+Gráficos 
+
+Descrição do método 
+
 ```
-command to run if program contains helper info
+casosSuspeitos(self, xLabel, yLabel, cor='#4169E1', pAlpha=0.5) 
 ```
+
+Acompanhamento da evolução das investigações dos casos suspeitos 
+
+```
+casosConfirmados(self, xLabel, yLabel, cor ='#4169E1', pAlpha=0.5) 
+```
+
+Acompanhamento da evolução dos casos confirmados 
+
+```
+casosAbertos(self, xLabel, yLabel, cor ='#4169E1', pAlpha=0.5) 
+```
+
+Acompanhamento dos casos abertos (indicador de atraso nas investigações) 
+
+```
+casosConfirmadosSE(self, xLabel, yLabel, cor ='#4169E1') 
+```
+
+Acompanhamento dos casos confirmados por semana epidemiológica 
+
+```
+casosNotificacoes(self, xLabel, yLabel, cor='#4169E1', pAlpha=0.5)
+``` 
+
+Acompanhamento dos casos suspeitos por semana epidemiológica na região 
+
+```
+casosAbertosSE(self, xLabel, yLabel, cor='#4169E1', pAlpha=0.5) 
+``` 
+
+Acompanhamento dos casos abertos por semana epidemiológica (indicador de atraso nas investigações) 
+
+```
+larvasMunicipio(self, municipio) 
+```
+
+Acompanhamento da evolução do quantitativo de larvas do vetor coletadas em campo por semana epidemiológica 
+
+```
+larvasBairros(self, municipio)
+``` 
+
+Acompanhamento da evolução do quantitativo de larvas do vetor coletadas em campo por semana epidemiológica com recorte por município 
+
+Listagens 
+
+Descrição do método 
+
+```
+listagemMunicipio(self) 
+``` 
+
+
+
+
 
 ## Autor
 
