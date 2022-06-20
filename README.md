@@ -20,7 +20,7 @@ pip3 install https://github.com/luiscasseres/PrjFrameworkDengue/blob/main/frmWrk
 ```
 
 * Download dengue.dbf e relatoriodengue.xls
-* 
+ 
 ### Uso da biblioteca
 
 #### Ferramenta de desenvolvimento
