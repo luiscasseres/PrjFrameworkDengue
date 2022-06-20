@@ -10,7 +10,7 @@ Nos últimos anos tem ocorrido aumento significativo de casos de dengue na regi�
 
 ### Dependências
 
-* Linux/Debian 10
+* Linux/Debian 10 ou superior
 * Python 3.7
 
 ### Instalação
