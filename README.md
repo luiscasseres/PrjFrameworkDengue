@@ -24,19 +24,24 @@ pip3 install https://github.com/luiscasseres/PrjFrameworkDengue/blob/main/frmWrk
 
 * Jupyter Notebook
 
+Impotação da biblioteca
+
 ```
 import frmWrkDengue
 from frmWrkDengue import frmWrkDengue
 ```
 
+Criação do projeto 
 ```
 frmWrkDengue.criarProjeto('Teste')
 ```
 
+Instância da classe gráfico para geração gráfica
 ```
 grafico = frmWrkDengue.Grafico('Teste')
 ```
 
+Geração do relatório básico
 ```
 grafico.relatorio('simplificado', 'Boletim Diario')
 ```
