@@ -1,29 +1,42 @@
-# Project Title
+# Blbioteca frmWrkDengue Python
 
-Simple overview of use/purpose.
+Biblioteca frmWrkDengue: Ferramenta para Acompanhamento dos Casos de Dengue e Monitoramento da Infestação a Nível Regional
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Nos últimos anos tem ocorrido aumento significativo de casos de dengue na região sul, com destaque para o estado do Rio Grande do Sul, onde no ano de 2022 foi registado um aumento de mais de 100% na circulação viral comparativamente ao ano anterior de 2021. A carência de ferramentas que permitam o recorte de dados a nível regional impacta na tomada de decisões de forma tempestiva, assim, nesse trabalho apresenta-se uma ferramenta, frmWrkDEnbgue, na forma de uma biblioteca Python, elaborada para suprir essa necessidade e viabilizar o acompanhamento da evolução dos casos e o monitoramento da infestação pelo vetor.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Linux/Debian 10
+* Python 3.7
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* pip3 install https://github.com/luiscasseres/PrjFrameworkDengue/blob/main/frmWrkDengue-0.4.1-py3-none-any.whl
+* Download dengue.dbf e relatoriodengue.xls
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Jupyter Notebook
+
 ```
-code blocks for commands
+import frmWrkDengue
+from frmWrkDengue import frmWrkDengue
+```
+
+```
+frmWrkDengue.criarProjeto('Teste')
+```
+
+```
+grafico = frmWrkDengue.Grafico('Teste')
+```
+
+```
+grafico.relatorio('simplificado', 'Boletim Diario')
 ```
 
 ## Help
@@ -35,28 +48,19 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names and contact info
+Luis F. Casseres
+[@luiscasseres]
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Programa Pós Graduação Computação Aplicada Unisinos
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+* 0.4.1
+    * Funcionalidades gráficas básicas
+    * Geração de relatório
+
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
