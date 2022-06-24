@@ -38,7 +38,7 @@ Criação do projeto
 frmWrkDengue.criarProjeto('Teste')
 ```
 
-![alt text](https://github.com/luiscasseres/PrjFrameworkDengue/blob/main/Estrutura%20diretorio.png)
+![alt text](https://github.com/luiscasseres/PrjFrameworkDengue/blob/main/Estrutura-Diretorio.png)
 
 Instância da classe gráfico para geração gráfica
 ```
