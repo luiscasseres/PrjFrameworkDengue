@@ -16,7 +16,7 @@ Nos últimos anos tem ocorrido aumento significativo de casos de dengue na regi�
 ### Instalação
 
 ```
-pip3 install https://github.com/luiscasseres/PrjFrameworkDengue/blob/main/frmWrkDengue-0.4.1-py3-none-any.whl
+pip3 install https://github.com/luiscasseres/PrjFrameworkDengue/blob/main/frmWrkDengue-0.8.3-py3-none-any.whl
 ```
 
 * Download dengue.dbf e relatoriodengue.xls
