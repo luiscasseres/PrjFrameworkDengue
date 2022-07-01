@@ -123,6 +123,27 @@ Relatório
 relatorio(self, tipo='simplificado', titulo='BOLETIM SIMPLIFICADO')
 ``` 
 
+Geocodificação
+```
+preProcessamento(self)
+``` 
+Plotagem dos casos
+```
+geoCodePlot(self)
+``` 
+Heatmap
+```
+geoCodeHeatMap(self, municipio)
+```
+Definição dos clusters
+```
+geoCluster(self, municipio)
+```
+Definição das áreas
+```
+geoClusterArea(self, municipio)
+```
+
 ## Autor
 
 Luis F. Casseres
