@@ -133,7 +133,7 @@ class GeoCodificacao():
 
 		self.preProcessamento()		
 
-	def geoCodePlot(self):
+	def geoCodePlot(self, municipio):
 
 		geometrySCS = [Point(xy) for xy in zip((self.casosSCS['Lon']).astype(float),(self.casosSCS['Lat']).astype(float))]
 		geometryVA  = [Point(xy) for xy in zip((self.casosVA['Lon']).astype(float),(self.casosVA['Lat']).astype(float))]
@@ -269,11 +269,14 @@ class GeoCodificacao():
 
 		folium.LayerControl(collapsed = False).add_to(mapaVA)
 
-		mapaSCS
-		mapaVA
-
-		mapaSCS.save(outfile = self.diretorio + "geocode_pontosSCS.html")
-		mapaVA.save(outfile  = self.diretorio + "geocode_pontosVA.html")
+		
+		if municipio == 'SCS':
+			mapaSCS.save(outfile = self.diretorio + "geocode_pontosSCS.html")
+			return mapaSCS
+		else:
+			mapaVA.save(outfile  = self.diretorio + "geocode_pontosVA.html")
+			return mapaVA
+		
 		
 
 	def geoCodeHeatMap(self, municipio):
