@@ -132,7 +132,7 @@ Programa Pós Graduação Computação Aplicada Unisinos
 
 ## Histórico Versão
 
-* 0.4.1
+* 0.8.3
     * Funcionalidades gráficas básicas
     * Geração de relatório
 
